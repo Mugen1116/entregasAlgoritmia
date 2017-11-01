@@ -42,7 +42,6 @@ def load_labyrinth( file: 'TextIOWrapper') -> ('UndirectedGraph'):
         matriz_laberinto.append([])
         for v in line[0].split(','):
             matriz_laberinto[i].append(v)
-
     laberinto = []
     for f, fila in enumerate(matriz_laberinto):
         for c, v in enumerate(fila):
